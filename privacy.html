@@ -18,7 +18,7 @@
 </head>
 <body>
 <h1>Rogue — Privacy Policy</h1>
-<p class="updated">Last updated: 21 October 2026</p>
+<p class="updated">Last updated: 24 October 2026</p>
 
 <p class="lead">Rogue is an AI assistant that runs on your device. This policy describes exactly what happens to your information. It is short because Rogue does very little with it: there is no account, no server of ours, and no analytics.</p>
 
@@ -40,16 +40,17 @@
 </table>
 
 <h2>4. When Rogue uses the network</h2>
-<p>Rogue works offline. The network is used in three situations, and every one of them is started by you:</p>
+<p>Rogue works offline. The network is used in four situations, and every one of them is started by you:</p>
 <ul>
   <li><strong>Downloading a model.</strong> When you choose a model to install, Rogue downloads it from a public model host (Hugging Face, including Apple's content store). That request reveals your IP address and the model you asked for to that host, as any download does. It contains no conversation content.</li>
   <li><strong>Reading a web page, when you ask for it.</strong> If you ask Rogue to read a URL, it fetches that page directly from the site you named. That site sees your IP address, exactly as a browser would.</li>
   <li><strong>Searching the web, when you ask it to.</strong> Web search is off until you choose an engine in Settings &gt; Web Search, and it then answers only the questions you ask it to look up. The search query goes to the engine you chose &mdash; Exa, Brave Search, Tavily or Perplexity &mdash; and that engine sees the query, your IP address and the key you supplied if you supplied one. We operate no search service and receive none of this. Rogue keeps no search history; the results live only in the conversation they answered.</li>
+  <li><strong>Connecting to MCP servers you add.</strong> If you add a Model Context Protocol (MCP) server in Settings &gt; MCP Servers, Rogue connects to that server and to no other. When the model calls one of its tools, the tool's arguments go to that server, and they can include parts of your conversation. The server also sees your IP address and any token you saved for it; tokens stay in this device's Keychain. Rogue adds no server on its own, and we operate none.</li>
 </ul>
 <p>No other part of the app makes a network request. Speech, images, translation, calendar and file access are processed on the device.</p>
 
 <h2>5. Device features Rogue can use</h2>
-<p>Rogue asks for permission the first time a feature is used, and only uses it when a tool is invoked: camera, photo library, microphone and speech recognition, calendar, reminders, notifications, contacts (when you pick one), Motion &amp; Fitness for step counts, and Focus status (read-only). Each of these is processed on the device. You can switch every tool off in the app's Tools screen, and revoke any permission in iOS Settings.</p>
+<p>Rogue asks for permission the first time a feature is used, and only uses it when a tool is invoked: camera, photo library, microphone and speech recognition, calendar, reminders, notifications, alarms, and contacts (when you pick one). Each of these is processed on the device. You can switch every tool off in the app's Tools screen, and revoke any permission in iOS Settings.</p>
 
 <h2>6. Children</h2>
 <p>Rogue is not directed at children and collects no personal information from anyone.</p>

@@ -40,10 +40,11 @@
 </table>
 
 <h2>4. When Rogue uses the network</h2>
-<p>Rogue works offline. The network is used in exactly two situations, both started by you:</p>
+<p>Rogue works offline. The network is used in three situations, and every one of them is started by you:</p>
 <ul>
   <li><strong>Downloading a model.</strong> When you choose a model to install, Rogue downloads it from a public model host (Hugging Face, including Apple's content store). That request reveals your IP address and the model you asked for to that host, as any download does. It contains no conversation content.</li>
   <li><strong>Reading a web page, when you ask for it.</strong> If you ask Rogue to read a URL, it fetches that page directly from the site you named. That site sees your IP address, exactly as a browser would.</li>
+  <li><strong>Searching the web, when you ask it to.</strong> Web search is off until you choose an engine in Settings &gt; Web Search, and it then answers only the questions you ask it to look up. The search query goes to the engine you chose &mdash; Exa, Brave Search, Tavily or Perplexity &mdash; and that engine sees the query, your IP address and the key you supplied if you supplied one. We operate no search service and receive none of this. Rogue keeps no search history; the results live only in the conversation they answered.</li>
 </ul>
 <p>No other part of the app makes a network request. Speech, images, translation, calendar and file access are processed on the device.</p>
 
